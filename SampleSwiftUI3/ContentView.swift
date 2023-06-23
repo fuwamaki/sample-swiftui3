@@ -11,7 +11,7 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
-    
+
     var body: some View {
         NavigationView {
             List {
@@ -34,7 +34,7 @@ struct ContentView: View {
                     }
                 }
             }
-            Text("Select an item")
+            .navigationTitle("Select an item")
         }
     }
 
@@ -57,4 +57,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
+        .environment(\.locale, .init(identifier: "en"))
+//        .environment(\.locale, .init(identifier: "ja"))
 }
