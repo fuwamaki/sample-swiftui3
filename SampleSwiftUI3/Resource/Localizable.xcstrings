@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Add" : {
+
+    },
     "Add Item" : {
       "localizations" : {
         "ja" : {
@@ -24,9 +27,6 @@
     "item list" : {
 
     },
-    "List" : {
-
-    },
     "Select an item" : {
       "localizations" : {
         "ja" : {
@@ -36,6 +36,18 @@
           }
         }
       }
+    },
+    "TODO list" : {
+
+    },
+    "TODO List" : {
+
+    },
+    "TODO Title" : {
+
+    },
+    "TOP" : {
+
     }
   },
   "version" : "1.0"

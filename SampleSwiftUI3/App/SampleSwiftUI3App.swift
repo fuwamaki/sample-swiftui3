@@ -15,6 +15,5 @@ struct SampleSwiftUI3App: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Item.self)
     }
 }

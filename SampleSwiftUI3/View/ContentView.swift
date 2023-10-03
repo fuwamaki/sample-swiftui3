@@ -15,11 +15,18 @@ struct ContentView: View {
             List {
                 NavigationLink {
                     ItemListView()
+                        .modelContainer(for: Item.self)
                 } label: {
                     Text("item list")
                 }
+                NavigationLink {
+                    TodoListView()
+                        .modelContainer(for: TodoEntity.self)
+                } label: {
+                    Text("TODO list")
+                }
             }
-            .navigationTitle("List")
+            .navigationTitle("TOP")
         }
     }
 }
