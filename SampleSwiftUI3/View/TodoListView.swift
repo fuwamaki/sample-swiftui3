@@ -73,6 +73,7 @@ struct TodoListView: View {
         withAnimation {
             if entity.status == status { return }
             entity.status = status
+            entity.updatedAt = Date()
             do {
                 try modelContext.save()
             } catch let error {
