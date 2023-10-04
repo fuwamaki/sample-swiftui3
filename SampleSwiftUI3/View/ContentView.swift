@@ -25,6 +25,11 @@ struct ContentView: View {
                 } label: {
                     Text("TODO list")
                 }
+                NavigationLink {
+                    Sample1ScrollView()
+                } label: {
+                    Text("Sample1 ScrollView")
+                }
             }
             .navigationTitle("TOP")
         }
