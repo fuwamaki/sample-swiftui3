@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// https://developer.apple.com/videos/play/wwdc2023/10159/
+// のサンプル最終形態
 struct Sample2ScrollView: View {
     @State var palettes: [Palette] = [
         .init(id: UUID(), name: "Example One"),

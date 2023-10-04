@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// https://developer.apple.com/videos/play/wwdc2023/10159/
+// のサンプル①
 struct Sample1ScrollView: View {
     @State var items: [SampleItem] = (0 ..< 25).map { SampleItem(id: $0) }
 
