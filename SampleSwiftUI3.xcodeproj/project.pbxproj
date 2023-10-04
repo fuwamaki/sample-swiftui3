@@ -12,6 +12,7 @@
 		DD14E2112ACBE23B0062391B /* TodoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14E2102ACBE23B0062391B /* TodoEntity.swift */; };
 		DD14E2142ACBEB800062391B /* TodoStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14E2132ACBEB800062391B /* TodoStatus.swift */; };
 		DD3FA5DC2ACD4918006C8168 /* Sample1ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */; };
+		DD3FA5DE2ACD4AEA006C8168 /* Sample2ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */; };
 		DDE2EED02A4E65BE00979092 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2EECF2A4E65BE00979092 /* ItemListView.swift */; };
 		DDE6D95C2A399EFA00AEC900 /* SampleSwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */; };
 		DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95D2A399EFA00AEC900 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		DD14E2102ACBE23B0062391B /* TodoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEntity.swift; sourceTree = "<group>"; };
 		DD14E2132ACBEB800062391B /* TodoStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStatus.swift; sourceTree = "<group>"; };
 		DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1ScrollView.swift; sourceTree = "<group>"; };
+		DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2ScrollView.swift; sourceTree = "<group>"; };
 		DDE2EECF2A4E65BE00979092 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		DDE6D9582A399EFA00AEC900 /* SampleSwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwiftUI3App.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				DDE2EECF2A4E65BE00979092 /* ItemListView.swift */,
 				DD14E20E2ACBE2310062391B /* TodoListView.swift */,
 				DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */,
+				DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD14E2112ACBE23B0062391B /* TodoEntity.swift in Sources */,
+				DD3FA5DE2ACD4AEA006C8168 /* Sample2ScrollView.swift in Sources */,
 				DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */,
 				DDE6D9652A399EFC00AEC900 /* Item.swift in Sources */,
 				DD14E20F2ACBE2310062391B /* TodoListView.swift in Sources */,
