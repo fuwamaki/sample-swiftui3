@@ -12,6 +12,15 @@ struct Sample3ScrollView: View {
     private struct Item: Identifiable {
         var id: UUID
         var color: Color
+
+        var title: String {
+            return switch color {
+            case .cyan: "Cyan"
+            case .mint: "Mint"
+            case .pink: "Pink"
+            default: ""
+            }
+        }
     }
 
     @State private var targetItemId: Item.ID? = nil
@@ -47,21 +56,13 @@ struct Sample3ScrollView: View {
             .scrollPosition(id: $targetItemId)
             .scrollIndicators(.never)
             HStack {
-                Button(action: {
-                    targetItemId = items[0].id
-                }, label: {
-                    Text("Cyan")
-                })
-                Button(action: {
-                    targetItemId = items[1].id
-                }, label: {
-                    Text("Mint")
-                })
-                Button(action: {
-                    targetItemId = items[2].id
-                }, label: {
-                    Text("Pink")
-                })
+                ForEach(items) { item in
+                    Button(action: {
+                        targetItemId = item.id
+                    }, label: {
+                        Text(item.title)
+                    })
+                }
             }
         }
     }

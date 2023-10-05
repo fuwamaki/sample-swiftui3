@@ -30,6 +30,16 @@ struct ContentView: View {
                 } label: {
                     Text("Sample1 ScrollView")
                 }
+                NavigationLink {
+                    Sample2ScrollView()
+                } label: {
+                    Text("Sample2 ScrollView")
+                }
+                NavigationLink {
+                    Sample3ScrollView()
+                } label: {
+                    Text("Sample3 ScrollView")
+                }
             }
             .navigationTitle("TOP")
         }
