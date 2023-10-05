@@ -14,6 +14,7 @@
 		DD3FA5DC2ACD4918006C8168 /* Sample1ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */; };
 		DD3FA5DE2ACD4AEA006C8168 /* Sample2ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */; };
 		DD3FA5E02ACD51CE006C8168 /* Sample3ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5DF2ACD51CE006C8168 /* Sample3ScrollView.swift */; };
+		DD3FA5E22ACE8409006C8168 /* SampleLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5E12ACE8409006C8168 /* SampleLogView.swift */; };
 		DDE2EED02A4E65BE00979092 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2EECF2A4E65BE00979092 /* ItemListView.swift */; };
 		DDE6D95C2A399EFA00AEC900 /* SampleSwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */; };
 		DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95D2A399EFA00AEC900 /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 		DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1ScrollView.swift; sourceTree = "<group>"; };
 		DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2ScrollView.swift; sourceTree = "<group>"; };
 		DD3FA5DF2ACD51CE006C8168 /* Sample3ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3ScrollView.swift; sourceTree = "<group>"; };
+		DD3FA5E12ACE8409006C8168 /* SampleLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLogView.swift; sourceTree = "<group>"; };
 		DDE2EECF2A4E65BE00979092 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		DDE6D9582A399EFA00AEC900 /* SampleSwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwiftUI3App.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				DD3FA5DB2ACD4918006C8168 /* Sample1ScrollView.swift */,
 				DD3FA5DD2ACD4AEA006C8168 /* Sample2ScrollView.swift */,
 				DD3FA5DF2ACD51CE006C8168 /* Sample3ScrollView.swift */,
+				DD3FA5E12ACE8409006C8168 /* SampleLogView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD14E2112ACBE23B0062391B /* TodoEntity.swift in Sources */,
+				DD3FA5E22ACE8409006C8168 /* SampleLogView.swift in Sources */,
 				DD3FA5DE2ACD4AEA006C8168 /* Sample2ScrollView.swift in Sources */,
 				DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */,
 				DDE6D9652A399EFC00AEC900 /* Item.swift in Sources */,

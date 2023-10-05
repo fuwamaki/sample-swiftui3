@@ -14,7 +14,22 @@
         }
       }
     },
+    "critical" : {
+
+    },
+    "debug" : {
+
+    },
+    "error" : {
+
+    },
+    "fault" : {
+
+    },
     "Featured" : {
+
+    },
+    "info" : {
 
     },
     "Item at %@" : {
@@ -28,6 +43,15 @@
       }
     },
     "item list" : {
+
+    },
+    "log" : {
+
+    },
+    "notice" : {
+
+    },
+    "Sample Log View" : {
 
     },
     "Sample1 ScrollView" : {
@@ -59,6 +83,12 @@
 
     },
     "TOP" : {
+
+    },
+    "trace" : {
+
+    },
+    "warning" : {
 
     }
   },
