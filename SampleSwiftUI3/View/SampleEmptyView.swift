@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct SampleEmptyView: View {
+
+    private enum LoadingState {
+        case initialize
+        case requesting
+        case requested
+    }
+
     private var apiClient = APIClient()
     @State private var keyword: String = ""
-    @State private var isLoading = false
+    @State private var loadingState: LoadingState = .initialize
     @State private var items: [QiitaItem] = []
 
     var body: some View {
@@ -39,12 +46,12 @@ struct SampleEmptyView: View {
                     }
                 }
                 .overlay {
-                    if items.isEmpty {
+                    if items.isEmpty, loadingState == .requested {
                         ContentUnavailableView.search
                     }
                 }
             }
-            if isLoading {
+            if loadingState == .requesting {
                 ProgressView()
                     .scaleEffect(1.5, anchor: .center)
                     .tint(.teal)
@@ -54,13 +61,13 @@ struct SampleEmptyView: View {
         .searchable(text: $keyword)
         .onSubmit(of: .search, {
             Task {
-                self.isLoading = true
+                self.loadingState = .requesting
                 do {
                     self.items = try await apiClient.fetchQiitaItem(query: keyword)
                 } catch let error {
                     debugPrint(error.localizedDescription)
                 }
-                isLoading = false
+                self.loadingState = .requested
             }
         })
         .accentColor(.teal)
