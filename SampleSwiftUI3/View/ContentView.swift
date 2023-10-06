@@ -45,6 +45,11 @@ struct ContentView: View {
                 } label: {
                     Text("Sample Log View")
                 }
+                NavigationLink {
+                    SampleEmptyView()
+                } label: {
+                    Text("Sample Empty View")
+                }
             }
             .navigationTitle("TOP")
         }
