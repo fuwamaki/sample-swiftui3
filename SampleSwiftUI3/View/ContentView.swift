@@ -55,6 +55,13 @@ struct ContentView: View {
                 } label: {
                     Text("Sample Empty Test View")
                 }
+                NavigationLink {
+                    SakeListView()
+                        .modelContainer(for: SakeEntity.self)
+                } label: {
+                    Text("Sake List")
+                }
+
             }
             .navigationTitle("TOP")
         }

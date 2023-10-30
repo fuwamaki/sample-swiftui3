@@ -7,13 +7,24 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct ItemListView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    private let tip = AddTip()
+
+    init() {
+        Tips.showAllTipsForTesting()
+        try? Tips.configure([
+            .displayFrequency(.immediate),
+            .datastoreLocation(.applicationDefault)
+        ])
+    }
 
     var body: some View {
         List {
+            TipView(tip)
             ForEach(items) { item in
                 NavigationLink {
                     Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
@@ -26,6 +37,7 @@ struct ItemListView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 EditButton()
+                    .popoverTip(tip)
             }
             ToolbarItem {
                 Button(action: addItem) {
@@ -57,3 +69,11 @@ struct ItemListView: View {
         .modelContainer(for: Item.self, inMemory: true)
         .environment(\.locale, .init(identifier: "ja"))
 }
+
+struct AddTip: Tip {
+    var title: Text {
+        Text("Add Button")
+    }
+}
+// TipKitは操作を教える目的（教育）
+// 操作を促す（promotional）、エラーメッセージ、複雑なもの は非推薦

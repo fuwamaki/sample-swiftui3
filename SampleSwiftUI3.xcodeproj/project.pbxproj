@@ -20,6 +20,8 @@
 		DD3FA5E92ACFF7B0006C8168 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5E82ACFF7B0006C8168 /* APIClient.swift */; };
 		DD3FA5EC2ACFF7DC006C8168 /* QiitaWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5EB2ACFF7DC006C8168 /* QiitaWebView.swift */; };
 		DD3FA5EE2AD7B86B006C8168 /* SampleEmptyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5ED2AD7B86B006C8168 /* SampleEmptyTestView.swift */; };
+		DD9CC93B2AEFE08800E656A6 /* SakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CC93A2AEFE08800E656A6 /* SakeListView.swift */; };
+		DD9CC93D2AEFE0BD00E656A6 /* SakeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CC93C2AEFE0BD00E656A6 /* SakeEntity.swift */; };
 		DDE2EED02A4E65BE00979092 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2EECF2A4E65BE00979092 /* ItemListView.swift */; };
 		DDE6D95C2A399EFA00AEC900 /* SampleSwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */; };
 		DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95D2A399EFA00AEC900 /* ContentView.swift */; };
@@ -42,6 +44,8 @@
 		DD3FA5E82ACFF7B0006C8168 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		DD3FA5EB2ACFF7DC006C8168 /* QiitaWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaWebView.swift; sourceTree = "<group>"; };
 		DD3FA5ED2AD7B86B006C8168 /* SampleEmptyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEmptyTestView.swift; sourceTree = "<group>"; };
+		DD9CC93A2AEFE08800E656A6 /* SakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeListView.swift; sourceTree = "<group>"; };
+		DD9CC93C2AEFE0BD00E656A6 /* SakeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeEntity.swift; sourceTree = "<group>"; };
 		DDE2EECF2A4E65BE00979092 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		DDE6D9582A399EFA00AEC900 /* SampleSwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwiftUI3App.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 				DD3FA5E12ACE8409006C8168 /* SampleLogView.swift */,
 				DD3FA5E32ACFF5C4006C8168 /* SampleEmptyView.swift */,
 				DD3FA5ED2AD7B86B006C8168 /* SampleEmptyTestView.swift */,
+				DD9CC93A2AEFE08800E656A6 /* SakeListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				DDE6D9642A399EFC00AEC900 /* Item.swift */,
 				DD14E2102ACBE23B0062391B /* TodoEntity.swift */,
 				DD3FA5E52ACFF795006C8168 /* QiitaItem.swift */,
+				DD9CC93C2AEFE0BD00E656A6 /* SakeEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -250,8 +256,10 @@
 				DDE6D9652A399EFC00AEC900 /* Item.swift in Sources */,
 				DD14E20F2ACBE2310062391B /* TodoListView.swift in Sources */,
 				DD14E2142ACBEB800062391B /* TodoStatus.swift in Sources */,
+				DD9CC93D2AEFE0BD00E656A6 /* SakeEntity.swift in Sources */,
 				DD3FA5E62ACFF795006C8168 /* QiitaItem.swift in Sources */,
 				DD3FA5DC2ACD4918006C8168 /* Sample1ScrollView.swift in Sources */,
+				DD9CC93B2AEFE08800E656A6 /* SakeListView.swift in Sources */,
 				DD3FA5E42ACFF5C4006C8168 /* SampleEmptyView.swift in Sources */,
 				DD3FA5E02ACD51CE006C8168 /* Sample3ScrollView.swift in Sources */,
 				DDE6D95C2A399EFA00AEC900 /* SampleSwiftUI3App.swift in Sources */,

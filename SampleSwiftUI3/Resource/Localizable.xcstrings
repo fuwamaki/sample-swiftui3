@@ -4,6 +4,9 @@
     "Add" : {
 
     },
+    "Add Button" : {
+
+    },
     "Add Item" : {
       "localizations" : {
         "ja" : {
@@ -14,10 +17,22 @@
         }
       }
     },
+    "add Sake" : {
+
+    },
+    "Add Sake" : {
+
+    },
+    "Cancel" : {
+
+    },
     "critical" : {
 
     },
     "debug" : {
+
+    },
+    "description" : {
 
     },
     "error" : {
@@ -30,6 +45,9 @@
 
     },
     "info" : {
+
+    },
+    "input sake name" : {
 
     },
     "Item at %@" : {
@@ -49,6 +67,12 @@
 
     },
     "notice" : {
+
+    },
+    "Sake List" : {
+
+    },
+    "Sample Empty Test View" : {
 
     },
     "Sample Empty View" : {
@@ -78,6 +102,9 @@
           }
         }
       }
+    },
+    "title" : {
+
     },
     "TODO list" : {
 
