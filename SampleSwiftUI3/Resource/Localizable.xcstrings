@@ -4,9 +4,6 @@
     "Add" : {
 
     },
-    "Add Button" : {
-
-    },
     "Add Item" : {
       "localizations" : {
         "ja" : {
@@ -21,6 +18,9 @@
 
     },
     "Add Sake" : {
+
+    },
+    "Add sake with this plus button" : {
 
     },
     "Cancel" : {
@@ -39,6 +39,9 @@
 
     },
     "fault" : {
+
+    },
+    "Favorites" : {
 
     },
     "Featured" : {
@@ -122,6 +125,9 @@
 
     },
     "warning" : {
+
+    },
+    "When you add sake to your favorites, it will be at the top of the list." : {
 
     }
   },

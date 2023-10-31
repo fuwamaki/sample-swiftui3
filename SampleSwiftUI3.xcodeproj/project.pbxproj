@@ -22,6 +22,7 @@
 		DD3FA5EE2AD7B86B006C8168 /* SampleEmptyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FA5ED2AD7B86B006C8168 /* SampleEmptyTestView.swift */; };
 		DD9CC93B2AEFE08800E656A6 /* SakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CC93A2AEFE08800E656A6 /* SakeListView.swift */; };
 		DD9CC93D2AEFE0BD00E656A6 /* SakeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CC93C2AEFE0BD00E656A6 /* SakeEntity.swift */; };
+		DD9CC93F2AEFE99300E656A6 /* SakeTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CC93E2AEFE99300E656A6 /* SakeTipView.swift */; };
 		DDE2EED02A4E65BE00979092 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2EECF2A4E65BE00979092 /* ItemListView.swift */; };
 		DDE6D95C2A399EFA00AEC900 /* SampleSwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */; };
 		DDE6D95E2A399EFA00AEC900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6D95D2A399EFA00AEC900 /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 		DD3FA5ED2AD7B86B006C8168 /* SampleEmptyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEmptyTestView.swift; sourceTree = "<group>"; };
 		DD9CC93A2AEFE08800E656A6 /* SakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeListView.swift; sourceTree = "<group>"; };
 		DD9CC93C2AEFE0BD00E656A6 /* SakeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeEntity.swift; sourceTree = "<group>"; };
+		DD9CC93E2AEFE99300E656A6 /* SakeTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeTipView.swift; sourceTree = "<group>"; };
 		DDE2EECF2A4E65BE00979092 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		DDE6D9582A399EFA00AEC900 /* SampleSwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6D95B2A399EFA00AEC900 /* SampleSwiftUI3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwiftUI3App.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				DD3FA5EB2ACFF7DC006C8168 /* QiitaWebView.swift */,
+				DD9CC93E2AEFE99300E656A6 /* SakeTipView.swift */,
 			);
 			path = ViewComponent;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				DD9CC93D2AEFE0BD00E656A6 /* SakeEntity.swift in Sources */,
 				DD3FA5E62ACFF795006C8168 /* QiitaItem.swift in Sources */,
 				DD3FA5DC2ACD4918006C8168 /* Sample1ScrollView.swift in Sources */,
+				DD9CC93F2AEFE99300E656A6 /* SakeTipView.swift in Sources */,
 				DD9CC93B2AEFE08800E656A6 /* SakeListView.swift in Sources */,
 				DD3FA5E42ACFF5C4006C8168 /* SampleEmptyView.swift in Sources */,
 				DD3FA5E02ACD51CE006C8168 /* Sample3ScrollView.swift in Sources */,

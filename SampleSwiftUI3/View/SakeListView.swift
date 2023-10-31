@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct SakeListView: View {
     @Environment(\.modelContext) private var modelContext
@@ -22,6 +23,7 @@ struct SakeListView: View {
 
     var body: some View {
         List {
+            TipView(FavoriteSakeTip(), arrowEdge: .bottom)
             ForEach(list) { sake in
                 HStack {
                     Text(sake.name)
@@ -45,6 +47,8 @@ struct SakeListView: View {
                 }, label: {
                     Label("Add Sake", systemImage: "plus")
                 })
+                .buttonStyle(.bordered)
+                .popoverTip(AddSakeTip())
             }
         }
         .navigationTitle("Sake List")
